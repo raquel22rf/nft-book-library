@@ -12,4 +12,14 @@ contract LibraryManager {
     function rentBook() external {
 
     }
+
+    function mintBook() external {
+        //(bool success, ) = author.call{value: price}("");
+        //require( success, "There was an error! Ether was not sent." );
+    }
+
+    function transferBook() external {
+        //(bool success, ) = author.call{value: (price / 10)}("");
+        //require( success, "There was an error! Ether was not sent." );
+    }
 }
